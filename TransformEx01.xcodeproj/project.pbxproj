@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		512493F4187DAB8300A43708 /* appleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 512493F3187DAB8300A43708 /* appleIcon.png */; };
 		5142FF19187DA55700B93A1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5142FF18187DA55700B93A1D /* Foundation.framework */; };
 		5142FF1B187DA55700B93A1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5142FF1A187DA55700B93A1D /* CoreGraphics.framework */; };
 		5142FF1D187DA55700B93A1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5142FF1C187DA55700B93A1D /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		5142FF3A187DA55700B93A1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5142FF1C187DA55700B93A1D /* UIKit.framework */; };
 		5142FF42187DA55700B93A1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5142FF40187DA55700B93A1D /* InfoPlist.strings */; };
 		5142FF44187DA55700B93A1D /* TransformEx01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5142FF43187DA55700B93A1D /* TransformEx01Tests.m */; };
-		5142FF4E187DA56C00B93A1D /* appleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5142FF4D187DA56C00B93A1D /* appleIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		512493F3187DAB8300A43708 /* appleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appleIcon.png; sourceTree = "<group>"; };
 		5142FF15187DA55700B93A1D /* TransformEx01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransformEx01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5142FF18187DA55700B93A1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5142FF1A187DA55700B93A1D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,7 +55,6 @@
 		5142FF3F187DA55700B93A1D /* TransformEx01Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransformEx01Tests-Info.plist"; sourceTree = "<group>"; };
 		5142FF41187DA55700B93A1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5142FF43187DA55700B93A1D /* TransformEx01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformEx01Tests.m; sourceTree = "<group>"; };
-		5142FF4D187DA56C00B93A1D /* appleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = appleIcon.png; path = "../../AnimationEx01-master/AnimationEx01/appleIcon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 		5142FF1E187DA55700B93A1D /* TransformEx01 */ = {
 			isa = PBXGroup;
 			children = (
-				5142FF4D187DA56C00B93A1D /* appleIcon.png */,
+				512493F3187DAB8300A43708 /* appleIcon.png */,
 				5142FF27187DA55700B93A1D /* AppDelegate.h */,
 				5142FF28187DA55700B93A1D /* AppDelegate.m */,
 				5142FF2A187DA55700B93A1D /* Main.storyboard */,
@@ -234,7 +234,7 @@
 				5142FF31187DA55700B93A1D /* Images.xcassets in Resources */,
 				5142FF23187DA55700B93A1D /* InfoPlist.strings in Resources */,
 				5142FF2C187DA55700B93A1D /* Main.storyboard in Resources */,
-				5142FF4E187DA56C00B93A1D /* appleIcon.png in Resources */,
+				512493F4187DAB8300A43708 /* appleIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +464,7 @@
 				5142FF49187DA55700B93A1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5142FF4A187DA55700B93A1D /* Build configuration list for PBXNativeTarget "TransformEx01Tests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +473,7 @@
 				5142FF4C187DA55700B93A1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
